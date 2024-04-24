@@ -37,6 +37,7 @@ nav{
     background-color: #fff;
     font-size: 20px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 .topnav a{
     color: #000;
@@ -77,6 +78,40 @@ nav{
 .advanteges__item{
     width: 30%;
 }
+footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex: 0 1 auto;
+}
+footer a{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+main {
+    min-height: 1000px;
+}
+
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+.social{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+}
+footer p{
+    color: #494949;
+}
 
 @media screen and (max-width: 768px){
     .topnav a:not(:first-child){
@@ -111,6 +146,7 @@ nav{
     }
 
 }
+
 
 @media screen and (max-width: 420px){
     .advanteges{
