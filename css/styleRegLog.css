@@ -1,0 +1,81 @@
+.logo{
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graficlogo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex: 0 1 auto;
+}
+footer a{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+footer nav a:hover{
+    border-bottom: 1px solid white;
+}
+.social{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.social img:hover{
+    background: #494949;
+    border-radius: 50%;
+}
+footer p{
+    color: #494949;
+}
+main{
+    min-height: 800px;
+}
+#reg{
+    border: 3px solid black;
+    width: 25em;
+    height: 30em;
+    margin: 20px;
+    padding: 20px;
+    box-shadow:
+      inset 0 -5em 5em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(206, 204, 204),
+      0.7em 0.7em 2em rgba(0, 0, 0, 0.3);
+
+    
+}
+#reg_container{
+    display: flex;
+    padding-top: 10em;
+    justify-content: center;
+}
+
+#log_container{
+    display: flex;
+    padding-top: 10em;
+    justify-content: center;
+}
+#log{
+    border: 3px solid black;
+    width: 25em;
+    height: 15em;
+    margin: 20px;
+    padding: 20px;
+    box-shadow:
+      inset 0 -5em 5em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(206, 204, 204),
+      0.7em 0.7em 2em rgba(0, 0, 0, 0.3);
+}
