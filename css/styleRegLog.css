@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Raleway", sans-serif;
+
+}
 .logo{
     background: #000;
     width: 100%;
@@ -78,4 +86,45 @@ main{
       inset 0 -5em 5em rgba(0, 0, 0, 0.1),
       0 0 0 2px rgb(206, 204, 204),
       0.7em 0.7em 2em rgba(0, 0, 0, 0.3);
+}
+#form-div{
+    display: flex;
+    flex-direction: column;
+}
+#form-form{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+input{
+    padding: 0.5em;
+    margin: 1em;
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+
+}
+button{
+    margin-left: 19em;
+    margin-top: 7em;
+    background-color: #000;
+    color: white;
+    border-radius: 1em;
+}
+#reg-h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6em;
+}
+@media screen and (max-width: 360px){
+    button{
+        background-color: #000;
+        margin-left: 0;
+        margin-top: 0;
+
+    }
 }
