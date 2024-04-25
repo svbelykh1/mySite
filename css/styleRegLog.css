@@ -106,6 +106,7 @@ input{
     background-color: transparent;
     color: inherit;
     outline: none;
+    text-align: center;
 
 }
 button{
