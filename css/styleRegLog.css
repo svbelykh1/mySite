@@ -54,7 +54,7 @@ main{
 }
 #reg{
     border: 3px solid black;
-    width: 25em;
+    width: 22em;
     height: 30em;
     margin: 20px;
     padding: 20px;
@@ -100,7 +100,7 @@ main{
 input{
     padding: 0.5em;
     margin: 1em;
-    width: 75%;
+    width: 65%;
     border: none;
     border-bottom: 1px solid black;
     background-color: transparent;
@@ -110,11 +110,11 @@ input{
 
 }
 button{
-    margin-left: 19em;
-    margin-top: 7em;
+
     background-color: #000;
     color: white;
     border-radius: 1em;
+    position: relative;
 }
 #reg-h2{
     display: flex;
@@ -124,11 +124,15 @@ button{
 #log-h2{
     display: flex;
     justify-content: center;
-    margin-bottom: 6em;
+    margin-bottom: 1em;
 }
 p{
     font-size: small;
     color: #000;
+    padding-top: 1em;
+}
+a{
+    text-decoration: none;
 }
 @media screen and (max-width: 360px){
     button{
