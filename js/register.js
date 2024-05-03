@@ -8,10 +8,16 @@ window.addEventListener('load',()=>{
         let pwd = document.getElementById('pwd')
         let cnfPwd = document.getElementById('cnfPwd')
 
-        //сравниваем значение и выводим alert
+        //сравниваем значение и выводим сообщение
         if( pwd.value != cnfPwd.value ){
-            alert("пароли не совпадают")
-        }
+            divMessage = document.querySelector('#message');
+            divMessage.innerHTML = '<p id="mess" color="red" >Пароли не совпадают</p>';
+        } 
+    })
+
+    form.addEventListener('click',()=>{
+        divMessage = document.querySelector('#message');
+        divMessage.innerHTML = '<p id="mess" color="red" ></p>';
     })
     //console.log(form)
 })

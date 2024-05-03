@@ -23,18 +23,31 @@
                 </div>
                 <div id = "form-div">
                     <form  id="form-form" action="#">
-                        <input type="name" placeholder="Введите Имя...">
-                        <img src="imj/icon+/name2.png" alt="">
-                        <input type="email" placeholder="Введите email...">
-                        <img src="imj/icon+/email.png" alt="">
-                        <input type="password" id = "pwd" placeholder="Введите пароль...">
-                        <img src="imj/icon+/pass2.png" alt="">
-                        <input type="password" id = "cnfPwd" placeholder="Подтвердите пароль email...">
-                        <a href="login.html"><p>Уже зарегистрирован</p></a>
-                        <button type="submit">Отправить</button>                
+                        <div id= "name"> 
+                            <img src="imj/icon+/name2.png" width="30" height="30" alt="">
+                            <input type="name" placeholder="Введите Имя...">
+                        </div>
+                        <div id="email">
+                            <img src="imj/icon+/email.png" width="30" height="30" alt ="">
+                            <input type="email" placeholder="Введите email...">
+                        </div>
+                        <div id="password">
+                            <img src="imj/icon+/pass2.png" width="30" height="30" alt ="">
+                            <input type="password" id = "pwd" placeholder="Введите пароль...">
+                        </div>
+                        <div id="divCnfPwd">
+                            <img src="imj/icon+/pass2.png" width="30" height="30" alt ="">
+                            <input type="password" id = "cnfPwd" placeholder= "Подтвердите пароль">
+                        </div>
+                        <div id = "sub">
+                            <a href="login.html"><p>Уже зарегистрирован?</p></a>
+                            <button type="submit">Отправить</button>
+                        </div>                
                     </form>
                 </div>
+                <div id = "message"></div>
             </div>
+            
         </div>
     </main>
     <footer>
