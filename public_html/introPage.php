@@ -1,3 +1,8 @@
+<?php session_start();
+if(!isset($_SESSION["session_username"])):
+header("location:login.php");
+else:
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,22 +17,18 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img class="graficlogo" src="imj/2.png" alt=""></a>
+            <a href="main.php"><img class="graficlogo" src="imj/2.png" alt=""></a>
         </div>
     </header>
     <main>
         <div id = "log_container">
-            <div id = "log">
-                <div id = "log-h2">
-                    <h2>Вход</h2>
+            <div id = "intro">
+                <div id = "welcome">
+                    <h2> Добро пожаловать!</h2>
                 </div>
-                <div id = "form-div">
-                    <form  id="form-form" action="#">
-                        <input type="name">
-                        <input type="password">
-                        <a href="register.html"><p>Регистрация</p></a>
-                        <button type="submit">Далее</button>                
-                    </form>
+                <div id = "inOut">
+                    <h4 id="h4-left"> <a href="main.php">Пререйти на главную</a></h4>
+                     <h4 id="h4-right"> <a href="logout.php">Выйти</a></h4>
                 </div>
             </div>
         </div>
@@ -41,6 +42,7 @@
         <p>Sergey Belykh Company. 2022</p>
     </footer>
 
-<script src="js/script.js"></script>
 </body>
 </html>
+
+<?php endif;?>

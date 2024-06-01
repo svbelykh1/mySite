@@ -4,6 +4,7 @@
 }
 a{
     text-decoration: none;
+    color:#000;
 }
 li{
     list-style: none;
@@ -31,6 +32,10 @@ nav{
     height: 100px;*/
     display: flex;
     justify-content: center;
+}
+#exit1{
+    text-align: right;
+    margin: 1em;
 }
 
 .topnav{
@@ -112,7 +117,12 @@ footer nav a:hover{
 footer p{
     color: #494949;
 }
-
+#intro{
+    display: flex;
+}
+#welcome{
+    text-align: center;
+}
 @media screen and (max-width: 768px){
     .topnav a:not(:first-child){
         display: none;

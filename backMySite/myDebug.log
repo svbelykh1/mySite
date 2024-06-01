@@ -1,0 +1,276 @@
+2024-05-27 06:47:20 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-05-27 06:47:20 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-05-27 06:47:20 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 15 :
+'Логин свободен'
+2024-05-27 06:47:20 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u041b\\u043e\\u0433\\u0438\\u043d \\u0441\\u0432\\u043e\\u0431\\u043e\\u0434\\u0435\\u043d"'
+2024-05-27 06:47:31 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'insert into users(username, password,email,role) VALUES(\'svbelykh\',\'567dc5d1760c2f16a3aceb28b0b96655\',\'dr.hola@yandex.ru\',0)',
+))
+2024-05-27 06:48:19 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-05-27 06:48:19 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-05-27 06:48:19 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 15 :
+'Логин свободен'
+2024-05-27 06:48:19 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u041b\\u043e\\u0433\\u0438\\u043d \\u0441\\u0432\\u043e\\u0431\\u043e\\u0434\\u0435\\u043d"'
+2024-05-27 06:48:29 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'svbelykh\',\'567dc5d1760c2f16a3aceb28b0b96655\',\'dr.hola@yandex.ru\',0)',
+))
+2024-05-27 06:48:29 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/register.php at 81 :
+'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'svbelykh\',\'567dc5d1760c2f16a3aceb28b0b96655\',\'dr.hola@yandex.ru\',0)'
+2024-05-27 06:48:29 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/register.php at 82 :
+array (
+)
+2024-05-27 06:51:41 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'svbelykh\',\'567dc5d1760c2f16a3aceb28b0b96655\',\'dr.hola@yandex.ru\',0)',
+))
+2024-05-27 06:51:41 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/register.php at 81 :
+'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'svbelykh\',\'567dc5d1760c2f16a3aceb28b0b96655\',\'dr.hola@yandex.ru\',0)'
+2024-05-27 06:51:52 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-05-27 06:51:54 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-05-27 06:52:02 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+  'name' => 'svbelykh',
+  'password' => 'Qq123456!',
+)
+2024-05-27 06:52:02 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username and password = :password;',
+))
+2024-05-27 06:52:02 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 67 :
+array (
+  0 => 
+  array (
+    'id' => 2,
+    'fullname' => 'test',
+    'username' => 'svbelykh',
+    'password' => '567dc5d1760c2f16a3aceb28b0b96655',
+    'email' => 'dr.hola@yandex.ru',
+    'role' => 0,
+  ),
+  1 => 
+  array (
+    'id' => 3,
+    'fullname' => 'test',
+    'username' => 'svbelykh',
+    'password' => '567dc5d1760c2f16a3aceb28b0b96655',
+    'email' => 'dr.hola@yandex.ru',
+    'role' => 0,
+  ),
+)
+2024-05-27 06:52:02 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 68 :
+'567dc5d1760c2f16a3aceb28b0b96655'
+2024-05-27 06:52:02 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 73 :
+'данные верны'
+2024-05-27 06:52:02 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 75 :
+'svbelykh'
+2024-05-27 06:52:10 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-05-27 06:52:17 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+  'name' => 'qwerty',
+  'password' => 'Qq123456!',
+)
+2024-05-27 06:52:17 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username and password = :password;',
+))
+2024-05-27 06:52:17 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 67 :
+array (
+)
+2024-05-27 06:52:17 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 68 :
+'567dc5d1760c2f16a3aceb28b0b96655'
+2024-05-27 06:52:17 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 80 :
+'Данные не Верны пользователь и пароль не совпадает'
+2024-05-27 06:52:29 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+  'name' => 'qwerty',
+  'password' => 'Qq123456',
+)
+2024-05-27 06:52:29 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username and password = :password;',
+))
+2024-05-27 06:52:29 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 67 :
+array (
+)
+2024-05-27 06:52:29 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 68 :
+'b22c15cba28c9bf9f01360d8b6630d93'
+2024-05-27 06:52:29 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 80 :
+'Данные не Верны пользователь и пароль не совпадает'
+2024-05-27 06:52:41 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-05-27 06:52:41 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-05-27 06:52:41 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 19 :
+'Такой логин уже существует'
+2024-05-27 06:52:41 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u0422\\u0430\\u043a\\u043e\\u0439 \\u043b\\u043e\\u0433\\u0438\\u043d \\u0443\\u0436\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0443\\u0435\\u0442"'
+2024-05-27 06:53:12 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-05-27 06:53:12 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-05-27 06:53:12 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 15 :
+'Логин свободен'
+2024-05-27 06:53:12 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u041b\\u043e\\u0433\\u0438\\u043d \\u0441\\u0432\\u043e\\u0431\\u043e\\u0434\\u0435\\u043d"'
+2024-05-27 06:53:13 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'svbelykh1\',\'0ff26cbb9b5b3b50e8310ceb51309315\',\'b.s.v.belykh@mail.com\',0)',
+))
+2024-05-27 06:53:13 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/register.php at 81 :
+'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'svbelykh1\',\'0ff26cbb9b5b3b50e8310ceb51309315\',\'b.s.v.belykh@mail.com\',0)'
+2024-05-27 06:53:40 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-05-27 06:53:53 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+  'name' => 'svbelykh1',
+  'password' => 'GAshikonega1!',
+)
+2024-05-27 06:53:53 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username and password = :password;',
+))
+2024-05-27 06:53:53 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 67 :
+array (
+  0 => 
+  array (
+    'id' => 4,
+    'fullname' => 'test',
+    'username' => 'svbelykh1',
+    'password' => '0ff26cbb9b5b3b50e8310ceb51309315',
+    'email' => 'b.s.v.belykh@mail.com',
+    'role' => 0,
+  ),
+)
+2024-05-27 06:53:53 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 68 :
+'0ff26cbb9b5b3b50e8310ceb51309315'
+2024-05-27 06:53:53 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 73 :
+'данные верны'
+2024-05-27 06:53:53 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 75 :
+'svbelykh1'
+2024-06-01 11:13:37 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-06-01 11:13:37 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-06-01 11:13:37 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 19 :
+'Такой логин уже существует'
+2024-06-01 11:13:37 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u0422\\u0430\\u043a\\u043e\\u0439 \\u043b\\u043e\\u0433\\u0438\\u043d \\u0443\\u0436\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0443\\u0435\\u0442"'
+2024-06-01 11:13:47 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-06-01 11:13:47 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-06-01 11:13:47 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 19 :
+'Такой логин уже существует'
+2024-06-01 11:13:47 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u0422\\u0430\\u043a\\u043e\\u0439 \\u043b\\u043e\\u0433\\u0438\\u043d \\u0443\\u0436\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0443\\u0435\\u0442"'
+2024-06-01 11:13:50 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-06-01 11:13:50 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-06-01 11:13:50 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 19 :
+'Такой логин уже существует'
+2024-06-01 11:13:50 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u0422\\u0430\\u043a\\u043e\\u0439 \\u043b\\u043e\\u0433\\u0438\\u043d \\u0443\\u0436\\u0435 \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0443\\u0435\\u0442"'
+2024-06-01 11:14:00 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 9 :
+'хост норм обрабатываем'
+2024-06-01 11:14:00 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username;',
+))
+2024-06-01 11:14:00 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 15 :
+'Логин свободен'
+2024-06-01 11:14:00 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/checkLogin.php at 22 :
+'"\\u041b\\u043e\\u0433\\u0438\\u043d \\u0441\\u0432\\u043e\\u0431\\u043e\\u0434\\u0435\\u043d"'
+2024-06-01 11:14:58 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'nice_papa\',\'0ff26cbb9b5b3b50e8310ceb51309315\',\'b.s.v.belykh@mail.com\',0)',
+))
+2024-06-01 11:14:58 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/register.php at 81 :
+'insert into users(fullname,username, password,email,role) VALUES(\'test\',\'nice_papa\',\'0ff26cbb9b5b3b50e8310ceb51309315\',\'b.s.v.belykh@mail.com\',0)'
+2024-06-01 11:16:45 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-06-01 11:16:48 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-06-01 11:16:51 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-06-01 11:16:53 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-06-01 11:17:15 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+)
+2024-06-01 11:17:47 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+  'name' => 'nice_papa',
+  'password' => 'GAshikonega1',
+)
+2024-06-01 11:17:47 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username and password = :password;',
+))
+2024-06-01 11:17:47 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 67 :
+array (
+)
+2024-06-01 11:17:47 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 68 :
+'9c99c890c179d6a30f7fa5f307f11e66'
+2024-06-01 11:17:47 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 80 :
+'Данные не Верны пользователь и пароль не совпадает'
+2024-06-01 11:18:01 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 55 :
+array (
+  'name' => 'nice_papa',
+  'password' => 'GAshikonega1!',
+)
+2024-06-01 11:18:01 || start in /Users/svbelykh/Sites/yeticave/mySite/backMySite/classes/DB/DB.php at 36 :
+\PDOStatement::__set_state(array(
+   'queryString' => 'Select * from users where username = :username and password = :password;',
+))
+2024-06-01 11:18:01 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 67 :
+array (
+  0 => 
+  array (
+    'id' => 5,
+    'fullname' => 'test',
+    'username' => 'nice_papa',
+    'password' => '0ff26cbb9b5b3b50e8310ceb51309315',
+    'email' => 'b.s.v.belykh@mail.com',
+    'role' => 0,
+  ),
+)
+2024-06-01 11:18:01 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 68 :
+'0ff26cbb9b5b3b50e8310ceb51309315'
+2024-06-01 11:18:01 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 73 :
+'данные верны'
+2024-06-01 11:18:01 || start in /Users/svbelykh/Sites/yeticave/mySite/public_html/login.php at 75 :
+'nice_papa'

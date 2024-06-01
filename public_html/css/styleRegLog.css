@@ -97,6 +97,39 @@ main{
 
     align-items: center;
 }
+#intro{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 25em;
+    height: 15em;
+    margin: 18px;
+    padding: 10px;
+    box-shadow:
+      inset 0 -5em 5em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(206, 204, 204),
+      0.7em 0.7em 2em rgba(0, 0, 0, 0.3);
+
+}
+#welcome{
+    display: flex;
+    justify-content: center;
+}
+#inOut{
+    padding-top: 5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* justify-content: center; */
+}
+#h4-left{
+    padding-right: 3em;
+}
+#h4-right{
+    display: flex;
+    margin-right: 0;
+}
+
 input{
     padding: 0.4em;
     margin: 0.6em;
@@ -116,6 +149,7 @@ button{
     border-radius: 1em;
     position: relative;
     width: 100%;
+    padding: 1.5%;
 }
 #reg-h2{
     display: flex;
@@ -137,13 +171,13 @@ p{
     display: flex;
     justify-content: center;
 }
-#mess{
-    color:red;
-}
+/* #mess{
+
+} */
 #sub{
     padding-top: 0.2em;
 }
-#name{
+#name1{
     display: flex;
 }
 #email{
@@ -158,6 +192,11 @@ p{
 }
 a{
     text-decoration: none;
+    color: black; 
+}
+.alert1{
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width: 360px){
     button{
